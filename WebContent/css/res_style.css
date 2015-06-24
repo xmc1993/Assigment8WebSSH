@@ -1,0 +1,155 @@
+
+
+#header {
+	width: 100%;
+	height: 54px;
+	margin: 0;
+	padding: 0px;
+	background-color:#6CAAD9;
+}
+
+#title {
+	float: left;
+	height: 54px;
+	margin:auto auto auto 60px;
+	padding:100px auto auto 100px;
+}
+
+
+#title span{
+	float:left;
+	height: 25px;
+	text-decoration: none;
+	font: 28px Georgia, "微软雅黑", Times, serif;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	line-height:49px;
+}
+
+#login-info{
+	float: right;
+	height:54px;
+	padding: 10px 20px 0px 0px;
+}
+
+#login-info span{
+	float:right;
+	height:16px;
+	font: 16px Georgia, "微软雅黑", Times, serif;
+	line-height:54px;
+	color:#FFFFFF;
+	margin:auto 15px auto auto;
+	padding:80px auto 0px auto;
+	display:block;
+	text-align:bottom;
+}
+#login-info span a{
+	text-decoration:none;
+	color:#000000;
+}
+
+#login-info span a:hover{
+	text-decoration:none;
+	color:#CC0000;
+}
+
+.warnning{
+	font-family:"楷体", Arial, Helvetica, sans-serif;
+	color:red;
+	font-weight:bold;
+	margin:20px auto auto 50px;
+}
+
+.top{
+	font-family:"微软雅黑", Arial, Helvetica, sans-serif;
+	color:#6E6F7C;
+	font-weight:bold;
+}
+
+.bottom{
+	font-family:"楷体", Arial, Helvetica, sans-serif;
+	color:black;
+	float:right;
+}
+
+/*86B4CC*/
+body{
+	margin: 0px;
+	padding: 0;
+	background-color:#FFFFFF;
+}
+
+#main{
+	
+}
+
+#customers
+  {
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  width:88%;
+  border-collapse:collapse;
+  margin:auto auto auto 50px;
+  }
+
+#customers td, #customers th 
+  {
+  font-size:1em;
+  border:1px solid #98bf21;
+  padding:3px 7px 2px 7px;
+  }
+
+#customers th 
+  {
+  font-size:1.1em;
+  text-align:left;
+  padding-top:5px;
+  padding-bottom:4px;
+  background-color:#A7C942;
+  color:#ffffff;
+  }
+
+#customers tr.alt td 
+  {
+  color:#000000;
+  background-color:#EAF2D3;
+  }
+  
+#customers tr.alt td.notPass{
+	color:red;
+} 
+#customers tr td.notPass{
+	color:red;
+} 
+  
+#noPass{
+	font-family:"楷体", Arial, Helvetica, sans-serif;
+	color:red;
+	font-weight:bold;
+	margin:20px auto auto 50px;
+}
+  
+#welcome{
+	position:relative;
+	width:100%;
+	text-align:center;
+	
+}
+.loop{
+	background-color:#86B4CC;
+	opacity:0.80;
+}
+  
+.center{
+	position:absolute;
+	margin:140px auto;
+} 
+  
+  
+  
+  
+  
+  
+  
+  
+  

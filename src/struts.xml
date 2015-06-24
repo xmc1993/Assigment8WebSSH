@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+
+	<package name="Assigment8WebSSH"  extends="struts-default">
+
+		<action name="/index" class="IndexAction">
+			<result>/acdemic/Index.jsp</result>
+		</action>
+		
+		<action name="login" class="LoginAction">
+			<result name="noUser">/acdemic/loginFail.jsp</result>
+			<result name="noGrade">/acdemic/noGrade.jsp</result>
+			<result name="allPass">/acdemic/grade.jsp</result>
+			<result name="notAllPass">/acdemic/notAllPassGrade.jsp</result>
+		</action>	
+	
+		<action name="enterLogin" class="LoginAction" method="enterLogin">
+			<result>/acdemic/Login.jsp</result>
+		</action>
+		
+		<action name="logout" class="LogoutAction">
+			<result>/acdemic/Login.jsp</result>
+		</action>
+		
+		<action name="test" class="TestAction">
+			<result>/acdemic/Test.jsp</result>
+		</action>
+		
+		<action name="/*" class="UploadAction">
+			<result>/acdemic/Upload.jsp</result>
+		</action>
+		
+		<action name="upload" class="UploadAction" method="upload">
+			<result>/acdemic/Index.jsp</result>
+		</action>
+
+	</package>
+
+</struts>
+
